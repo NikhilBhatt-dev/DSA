@@ -6,7 +6,6 @@ public class FloorNumber {
         int[] arr = {2,3,5,9,14,16,18};
         int target = 17;
 
-        // Sort the array before performing binary search
         Arrays.sort(arr);
 
         int ans = Floor(arr, target);
