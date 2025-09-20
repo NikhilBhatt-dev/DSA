@@ -1,0 +1,24 @@
+# IDE files
+.idea
+*.iml
+*.iws
+
+# Build directories
+out/
+target/
+build/
+
+
+# Production or distribution files 
+production/
+
+# Logs or test outputs
+*.log
+test-output/
+
+# Compiled Java class files
+*.class
+
+
+# Miscellaneous files 
+DSA.iml
