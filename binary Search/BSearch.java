@@ -1,13 +1,7 @@
-import java.util.Arrays;
-
 public class BSearch{
     public static void main(String[] args) {
-        int[] arr = {-2, -3, 5, 7, 2, 5, 8, 11, 33, 6, 643};
-        int target = 2;
-
-        // Sort the array before performing binary search
-        Arrays.sort(arr);
-
+        int[] arr = {2,4,7,9,12,67,123,456,789};
+        int target = 789;
         int ans = BinarySearch(arr, target);
         System.out.println(ans);
     }
