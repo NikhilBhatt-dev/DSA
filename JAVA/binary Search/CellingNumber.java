@@ -1,3 +1,5 @@
+// celling number mean find the smallest number in given array that is greater and equal then given number
+
 import java.util.Arrays;
 
 public class CellingNumber{
