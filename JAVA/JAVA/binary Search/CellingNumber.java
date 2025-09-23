@@ -1,12 +1,20 @@
-public class BSearch{
+// celling number mean find the smallest number in given array that is greater and equal then given number
+
+import java.util.Arrays;
+
+public class CellingNumber{
     public static void main(String[] args) {
-        int[] arr = {2,4,7,9,12,67,123,456,789};
-        int target = 789;
-        int ans = BinarySearch(arr, target);
+        int[] arr = {2,3,5,9,14,16,18};
+        int target = 17;
+
+        // Sort the array before performing binary search
+        Arrays.sort(arr);
+
+        int ans = Celling(arr, target);
         System.out.println(ans);
     }
 
-    static int BinarySearch(int[] arr, int target) {
+    static int Celling(int[] arr, int target) {
         int start = 0;
         int end = arr.length - 1;
 
@@ -22,6 +30,6 @@ public class BSearch{
             }
         }
 
-        return -1;
+        return start;
     }
 }
