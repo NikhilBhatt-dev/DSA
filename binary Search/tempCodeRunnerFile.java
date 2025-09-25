@@ -1,1 +1,1 @@
-Arrays.sort(arr);
+arr
